@@ -1210,7 +1210,7 @@ form textarea {
         color: #1392ec; }
 
 .social-links {
-  float: right; }
+  margin-bottom: 20px;}
   .social-links a {
     width: 30px;
     height: 30px;
@@ -1727,3 +1727,79 @@ form textarea {
         border-right: none; }
   .site-footer .colophon {
     color: #898b8d; }
+
+    .subscribe-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .subscribe-form-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .subscribe-form button {
+      width: fit-content;
+    }
+
+.bottom-footer .container {
+    position: relative;
+}
+
+    .footer-branding {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    .blog-button {
+      padding: 10px 20px;
+      background-color: #336699;
+      color: white;
+    }
+
+    .blog-title a {
+      position: relative;
+      padding-right: 20px;
+    }
+
+    .blog-title a::after {
+      position: absolute;
+      left: calc(100% - 20px);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .blog-title a, .blog-title + p {
+      text-overflow: ellipsis;
+      text-wrap: nowrap;
+      overflow: hidden;
+      width: 100%;
+      display: block;
+    }
+
+    .blog-item {
+      margin-bottom: 50px;
+    }
+
+    .blog-title {
+      font-size: 1em !important;
+      margin-bottom: 0;
+    }
+
+    .article-img {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .article-view h1 {
+      text-align: center;
+    }
+
+    .article-view ol li {
+      margin-bottom: 10px;
+    }
