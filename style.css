@@ -1356,7 +1356,7 @@ form textarea {
   .feature .feature-title {
     font-size: 20px;
     font-size: 1.25em;
-    height: 2.5em;
+    height: 3.5em;
     margin-bottom: 20px;
     color: #0f75bd;
     font-weight: 400; }
@@ -1749,9 +1749,15 @@ form textarea {
 
     .footer-branding {
     position: absolute;
-    left: 0;
+    left: 5px;
     top: 50%;
     transform: translateY(-50%);
+    }
+
+    @media(max-width: 770px) {
+      .footer-branding {
+        display: none;
+      }
     }
 
     .blog-button {
